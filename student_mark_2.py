@@ -74,9 +74,9 @@ class Course: #Enter and define Course
 
 
 def numStudent():
-    while True(int = i):
+    while True:
         try:
-            NumberStudent = int(input("Enter number of student in the class: ", i))          
+            NumberStudent = int(input("Enter number of student in the class: "))          
             return NumberStudent
         except ValueError:
             print("Enter again")
@@ -112,6 +112,9 @@ def findCourseName(courses, course_id):
             return course.get_name()
     print("Error: Invalid ID")
 
+# def removeCourseName(course, course_id):
+#     for course in course:
+#         print("select to", {})
 
 if __name__ == "__main__":
     students = []
